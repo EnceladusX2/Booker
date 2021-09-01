@@ -15,7 +15,15 @@
             "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
-            "stopAtEntry": false
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart",
+            "pipeTransport": {
+                "pipeCwd": "${workspaceFolder}",
+                "pipeProgram": "cmd",
+                "pipeArgs": ["/c"],
+                "debuggerPath": "C:\\netcoredbg\\netcoredbg.exe",
+                "quoteArgs": true
+            }
         },
         {
             "name": ".NET Core Attach",

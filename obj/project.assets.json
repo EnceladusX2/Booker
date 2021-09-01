@@ -68,41 +68,6 @@
           "lib/netstandard2.0/DSharpPlus.Lavalink.dll": {}
         }
       },
-      "DSharpPlus.VoiceNext/4.2.0-nightly-00972": {
-        "type": "package",
-        "dependencies": {
-          "DSharpPlus": "4.2.0-nightly-00972",
-          "DSharpPlus.VoiceNext.Natives": "1.0.0",
-          "System.Threading.Channels": "5.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/DSharpPlus.VoiceNext.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/DSharpPlus.VoiceNext.dll": {}
-        }
-      },
-      "DSharpPlus.VoiceNext.Natives/1.0.0": {
-        "type": "package",
-        "runtimeTargets": {
-          "runtimes/win-x64/native/libopus.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x64/native/libsodium.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x86/native/libopus.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          },
-          "runtimes/win-x86/native/libsodium.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          }
-        }
-      },
       "Emzi0767.Common/2.6.2": {
         "type": "package",
         "dependencies": {
@@ -1321,15 +1286,6 @@
           "lib/netstandard1.3/System.Threading.dll": {}
         }
       },
-      "System.Threading.Channels/5.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
-        }
-      },
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1444,34 +1400,6 @@
         "dsharpplus.png",
         "lib/netstandard2.0/DSharpPlus.Lavalink.dll",
         "lib/netstandard2.0/DSharpPlus.Lavalink.xml"
-      ]
-    },
-    "DSharpPlus.VoiceNext/4.2.0-nightly-00972": {
-      "sha512": "sfCayT+j2y3y7DNGa0s6T0QAMPu0HLDTd+YxOAY46PKXJCFIRKcIEmR6fvzPLqrnSPSWQhZCc89uJEvEeLLNbw==",
-      "type": "package",
-      "path": "dsharpplus.voicenext/4.2.0-nightly-00972",
-      "files": [
-        ".nupkg.metadata",
-        "dsharpplus.png",
-        "dsharpplus.voicenext.4.2.0-nightly-00972.nupkg.sha512",
-        "dsharpplus.voicenext.nuspec",
-        "lib/netstandard2.0/DSharpPlus.VoiceNext.dll",
-        "lib/netstandard2.0/DSharpPlus.VoiceNext.xml"
-      ]
-    },
-    "DSharpPlus.VoiceNext.Natives/1.0.0": {
-      "sha512": "U+UtMpommsfh+OOgLYQBy1e+53P/q6/LW18bgIJqsyshhThhiyEH8ISnpESdQrcqEDj6Nud7+FbnNi7N4QtDGw==",
-      "type": "package",
-      "path": "dsharpplus.voicenext.natives/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "dsharpplus.voicenext.natives.1.0.0.nupkg.sha512",
-        "dsharpplus.voicenext.natives.nuspec",
-        "runtimes/win-x64/native/libopus.dll",
-        "runtimes/win-x64/native/libsodium.dll",
-        "runtimes/win-x86/native/libopus.dll",
-        "runtimes/win-x86/native/libsodium.dll"
       ]
     },
     "Emzi0767.Common/2.6.2": {
@@ -4288,32 +4216,6 @@
         "system.threading.nuspec"
       ]
     },
-    "System.Threading.Channels/5.0.0": {
-      "sha512": "RLBIxntLaG9pRmmuVDwY1kc8Bvp/FQzSxPU+19VekkScKkWtVP9r8bLhm28ama3usc816UBrmkg3vv3jUea/hw==",
-      "type": "package",
-      "path": "system.threading.channels/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Threading.Channels.dll",
-        "lib/net461/System.Threading.Channels.xml",
-        "lib/netcoreapp3.0/System.Threading.Channels.dll",
-        "lib/netcoreapp3.0/System.Threading.Channels.xml",
-        "lib/netstandard1.3/System.Threading.Channels.dll",
-        "lib/netstandard1.3/System.Threading.Channels.xml",
-        "lib/netstandard2.0/System.Threading.Channels.dll",
-        "lib/netstandard2.0/System.Threading.Channels.xml",
-        "lib/netstandard2.1/System.Threading.Channels.dll",
-        "lib/netstandard2.1/System.Threading.Channels.xml",
-        "system.threading.channels.5.0.0.nupkg.sha512",
-        "system.threading.channels.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Threading.Tasks/4.3.0": {
       "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "type": "package",
@@ -4525,7 +4427,6 @@
       "DSharpPlus.CommandsNext >= 4.2.0-nightly-00972",
       "DSharpPlus.Interactivity >= 4.2.0-nightly-00972",
       "DSharpPlus.Lavalink >= 4.2.0-nightly-00972",
-      "DSharpPlus.VoiceNext >= 4.2.0-nightly-00972",
       "IDoEverything.DSharpPlus.SlashCommands >= 2.0.1",
       "Newtonsoft.Json >= 13.0.1",
       "Serilog >= 2.10.0",
@@ -4589,10 +4490,6 @@
             "version": "[4.2.0-nightly-00972, )"
           },
           "DSharpPlus.Lavalink": {
-            "target": "Package",
-            "version": "[4.2.0-nightly-00972, )"
-          },
-          "DSharpPlus.VoiceNext": {
             "target": "Package",
             "version": "[4.2.0-nightly-00972, )"
           },
