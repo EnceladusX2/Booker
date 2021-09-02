@@ -33,8 +33,8 @@ namespace Booker
             //* Setup CommandsNext to also work with shards.
             await bot.UseCommandsNextAsync(new CommandsNextConfiguration()
             {
-                // TODO: Add support for config loading.
-                StringPrefixes = new[] { "b!" }
+                EnableMentionPrefix = true,
+                StringPrefixes = new[] { config.DefaultPrefix }
             });
 
             await bot.StartAsync();
